@@ -1,0 +1,86 @@
+supported_networks:
+  saga:
+    Websites:
+      Mintscan:
+        url: "https://www.mintscan.io/saga"
+        selector: "#content-root > div:nth-child(2) > div:nth-child(1) > div > div.root.svelte-1f4ehll > div > div > div.contents.svelte-1xwpkv3 > section > div > div > div:nth-child(6) > div > div > div > div:nth-child(2) > div > div:nth-child(2)"
+      Guru:
+        url: "-"
+        selector: "-"
+      Restake:
+        url: "https://restake.app/saga"
+        selector: "#root > div > div > div.mb-2 > table > tbody > tr:nth-child(1) > td:nth-child(4) > span > small"
+    APIs:
+      - "https://saga.api.kjnodes.com"
+      - "https://saga-rest.publicnode.com"
+      - "https://saga-api.polkachu.com"
+    Prices:
+      Coingecko:
+        - "https://api.coingecko.com/api/v3/simple/price?ids=saga-2&vs_currencies=usd"
+      Osmosis:
+        - "https://api-osmosis.imperator.co/tokens/v2/saga"
+
+  osmo:
+    Websites:
+      Mintscan:
+        url: "https://www.mintscan.io/osmosis"
+        selector: "#content-root > div:nth-child(2) > div:nth-child(1) > div > div.root.svelte-1f4ehll > div > div > div.contents.svelte-1xwpkv3 > section > div > div > div:nth-child(6) > div > div > div > div:nth-child(2) > div > div:nth-child(2)"
+      Guru:
+        url: "https://osmosis.explorers.guru/"
+        selector: "#__next > div.css-6lpq93 > div > div.css-1az6hu7 > div.card.css-vdvsua > div > p"
+      Restake:
+        url: "https://restake.app/osmosis"
+        selector: "#root > div > div > div.mb-2 > table > tbody > tr:nth-child(1) > td:nth-child(4) > span > small"
+    APIs:
+      - "https://lcd.osmosis.zone"
+      - "https://api-osmosis-ia.cosmosia.notional.ventures"
+      - "https://osmosis-api.polkachu.com"
+      - "https://lcd-osmosis.blockapsis.com"
+    Prices:
+      Coingecko:
+        - "https://api.coingecko.com/api/v3/simple/price?ids=osmosis&vs_currencies=usd"
+      Osmosis:
+        - "https://api-osmosis.imperator.co/tokens/v2/osmo"
+
+  cosmos:
+    Websites:
+      Mintscan:
+        url: "https://www.mintscan.io/cosmos"
+        selector: "#content-root > div:nth-child(2) > div:nth-child(1) > div > div.root.svelte-1f4ehll > div > div > div.contents.svelte-1xwpkv3 > section > div > div > div:nth-child(6) > div > div > div > div:nth-child(2) > div > div:nth-child(2)"
+      Guru:
+        url: "https://cosmos.explorers.guru/"
+        selector: "#__next > div.css-6lpq93 > div > div.css-1az6hu7 > div.card.css-vdvsua > div > p"
+      Restake:
+        url: "-"
+        selector: "-"
+    APIs:
+      - "https://rest.cosmos.directory/cosmoshub"
+      - "https://cosmos-rest.staketab.org"
+      - "https://cosmos.api.silknodes.io"
+    Prices:
+      Coingecko:
+        - "https://api.coingecko.com/api/v3/simple/price?ids=cosmos&vs_currencies=usd"
+      Osmosis:
+        - "https://api-osmosis.imperator.co/tokens/v2/atom"
+
+  juno:
+    Websites:
+      Mintscan:
+        url: "https://www.mintscan.io/juno"
+        selector: "#content-root > div:nth-child(2) > div:nth-child(1) > div > div.root.svelte-1f4ehll > div > div > div.contents.svelte-1xwpkv3 > section > div > div > div:nth-child(6) > div > div > div > div:nth-child(2) > div > div:nth-child(2)"
+      Guru:
+        url: "-"
+        selector: "-"
+      Restake:
+        url: "https://restake.app/juno"
+        selector: "#root > div > div > div.mb-2 > table > tbody > tr:nth-child(1) > td:nth-child(4) > span > small"
+    APIs:
+      - "https://juno-api.polkachu.com"
+      - "https://api-juno-ia.cosmosia.notional.ventures"
+      - "https://rest-juno.goldenratiostaking.net"
+      - "https://juno-rest.publicnode.com"
+    Prices:
+      Coingecko:
+        - "https://api.coingecko.com/api/v3/simple/price?ids=juno-network&vs_currencies=usd"
+      Osmosis:
+        - "https://api-osmosis.imperator.co/tokens/v2/juno"

@@ -1,0 +1,4 @@
+saga 10.24 Mintscan
+osmo 10.17 Mintscan
+cosmos 15.1 Mintscan
+juno 17.63 Mintscan
